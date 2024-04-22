@@ -1,0 +1,30 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int a;
+int b;
+int c;
+int d;
+int n;
+int l;
+int r;
+
+cout<<"ingre la asignatura A"<<endl;
+cin>>a;
+cout<<"ingre la asignatura B"<<endl;
+cin>>b;
+cout<<"ingre la asignatura C"<<endl;
+cin>>c;
+cout<<"ingre la asignatura D"<<endl;
+cin>>d;
+
+n = a+b/2;
+l = c*d/a;
+
+r = n*l + 1;
+cout<<"resultado final"<<endl;
+cout<<r<<endl;
+}
