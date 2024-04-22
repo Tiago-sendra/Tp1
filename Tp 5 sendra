@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int a;
+int r;
+cin>>a;
+
+r = a*a*a;
+
+cout<<"resultado"<<endl;
+cout<<r<<endl;
+}
