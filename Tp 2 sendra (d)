@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int age=35;
+cout<<age<<endl;
+age = 52;
+cout<<age<<endl;
+
+cout<<"siendo el detonante del error las comillas ubicadas en los endl"<<endl;
+}
