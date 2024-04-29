@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int time;
+cout<<"ingrese valor de la variable time"<<endl;
+cin>>time;
+if(time < 18){cout<<"good day"<<endl;
+else{cout<<"good evening"<<endl}
+
+cout<<"siendo generado en time 20 good day debido a que es mayor a 18"<<endl;
+cout<<"siendo generado en time 5 good evening debido a que es menor a 18"<<endl;
+}
