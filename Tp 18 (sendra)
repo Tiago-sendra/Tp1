@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+int N;
+int Ñ;
+int I;
+int Y;
+int J;
+
+int Out;
+int In;
+
+cout<<"ingrese la cantidad de numeros que quieras ingresar"<<endl;
+cin>>N;
+
+while(J<N)
+{
+J = J + 1;
+
+cout<<"ingrese un numero"<<endl;
+cin>>Ñ;
+I = Ñ;
+if(I>=10 && 20<=I){In = In + 1;}
+else {Out = Out + 1;}
+
+return 0;
+}
+}
