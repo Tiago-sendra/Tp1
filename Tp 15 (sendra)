@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int A;
+  int B;
+  int C;
+  
+  cout<<"ingrese la cantidad de numero a ingresar"<<endl;
+  cin >> A;
+  while(B<A)
+  {
+    B = B + 1;
+  cout << "HOLA MUNDO = " << B <<endl;
+  }
+  
+  return 0;
+}
