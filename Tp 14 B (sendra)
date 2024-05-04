@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+  int A;
+  A = 10;
+  
+  while(A==10){
+  cout << "HOLA MUNDO" << endl;
+  }
+  
+  return 0;
+}
