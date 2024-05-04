@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int A;
+    cout<< "ingrese numero del dia del mes" <<endl;
+    cin >> A;
+    
+    if(A==1){cout << "el dia es Lunes" << endl;}
+    else if(A==2){cout << "el dia es Martes" << endl;}
+    else if(A==3){cout << "el dia es Miercoles" << endl;}
+    else if(A==4){cout << "el dia es Jueves" << endl;}
+    else if(A==5){cout << "el dia es Viernes" << endl;}
+    else if(A==6){cout << "el dia es Sabado" << endl;}
+    else if(A==7){cout << "el dia es Domingo" << endl;}
+    else {cout << "Err0r" << endl;}
+    return 0;
+}
