@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int A;
+    cout<< "ingrese un sueldo" <<endl;
+    cin >> A;
+    
+    if(A>=16){A = A*0,8;cout << "el sueldo es = "<< A << endl;}
+    
+    else if(A<=15){A = A*0,2;cout << "el sueldo es = "<< A << endl;}
+    
+    
+    return 0;
+}
