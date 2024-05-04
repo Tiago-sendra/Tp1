@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int A;
+    cout<< "ingrese un numero de codigo de area y se le presentara su ubicacion de area" <<endl;
+    cin >> A;
+    
+    if(A==61){cout << "Brasilia" << endl;}
+    else if(A==71){cout << "Salvador" << endl;}
+    else if(A==11){cout << "Sao Paulo" << endl;}
+    else if(A==21){cout << "Rio Janeiro" << endl;}
+    else if(A==32){cout << "Juiz De Fora" << endl;}
+    else if(A==19){cout << "Campinas" << endl;}
+    else if(A==27){cout << "Vitoria" << endl;}
+    else if(A==31){cout << "Belo Horizonte" << endl;}
+    else {cout << "DDD No Encontado" << endl;}
+
+    return 0;
+}
