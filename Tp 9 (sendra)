@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int A;
+    int B;
+    int C;
+    int D;    
+    cout << "inserte las calificaciones del usuario" << endl;
+    cout << "1-" << endl;
+    cin >> A;
+    cout << "2-" << endl;
+    cin >> B;
+    cout << "3-" << endl;
+    cin >> C;
+    
+    D = A+B+C/3;
+    if(D<=6){cout << "el usuario a desaprobado" << endl;}
+    else if(D==7){cout << "el usuario a aprobado" << endl;}
+    else if(D>=8){cout << "el usuario a aprobado con honores" << endl;}
+    return 0;
+}
