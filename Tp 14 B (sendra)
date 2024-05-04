@@ -4,7 +4,7 @@ using namespace std;
 int main() 
 {
   int A;
-  A = 15;
+  A = 10;
   
   while(A==10){
   cout << "HOLA MUNDO" << endl;
