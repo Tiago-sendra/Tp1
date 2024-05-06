@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	int A = 0;
+	int B;
+	int C = 0;
+	
+	while(A<10) {
+	A = A+1;
+	cout<<"ingrese su numero deseado"<<endl;
+	cin>>B;
+	C = C+B;
+	}
+	
+	cout<<"siendo su suma total"<<endl;
+	cout<<C<<endl;
+	cout<<"siendo su promedio"<<endl;
+	C = C/10;
+	cout<<C<<endl;
+}
