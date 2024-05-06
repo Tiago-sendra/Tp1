@@ -1,0 +1,26 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+int A;
+int B = 0;
+int C;
+int i = 0;
+int p = 0;
+
+cout<<"asignar cuantos numeros desea añadir"<<endl;
+cin>>A;
+
+while(B<A){
+B = B + 1;	
+cout<<"ingrese un numero"<<endl;
+cin>>C;
+C = C%2;
+if(C==1){i = i + 1;}
+else if(C==0){p = p + 1;}
+}
+cout<<"siendo los numeros Impares = "<<i<<endl;
+cout<<"siendo los numeros pares = "<<p<<endl;
+}
