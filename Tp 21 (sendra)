@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int a;
+int b;
+int c;
+
+cout<<"ingrese numero 1"<<endl;
+cin>>a;
+cout<<"ingrese numero 2"<<endl;
+cin>>b;
+
+
+c = a + b;cout<<"siendo su suma:"<<c<<endl;
+
+c = a - b;cout<<"siendo su resta:"<<c<<endl;
+
+c = a * b;cout<<"siendo su multiplicacion:"<<c<<endl;
+
+c = a / b;cout<<"siendo su divicion:"<<c<<endl;
+}
