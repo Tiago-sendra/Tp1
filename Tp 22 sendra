@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int a;
+int b;
+
+cout<<"ingrese el valor del lado del cuadrado"<<endl;
+cin>>a;
+cout<<"siendo su perimetro la siguiente = ";
+b = a + a + a + a;cout<<b<<endl;
+cout<<"siendo su superficie la siguiente = ";
+b = a*a;cout<<b<<endl;
+}
